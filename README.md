@@ -1,3 +1,0 @@
-# datasciencecoursera
-# datasciencecoursera
-# datasciencecoursera
