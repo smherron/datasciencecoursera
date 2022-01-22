@@ -90,7 +90,7 @@ tidy <- melt(extracted, id = c("subject", "activity"))
 tidy <- rename(tidy, feature = variable, mean = value)
 head(tidy)
 
-
+write.table(tidy, file = "tidy.txt", row.names = FALSE)
 
 
 
