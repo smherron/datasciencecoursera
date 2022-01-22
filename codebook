@@ -50,3 +50,21 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
+
+-------------------------------------
+
+Information about data in script:
+
+The table `data` was created combining the files:
+features.txt
+subject_test.txt
+X_test.txt
+y_test.txt
+subject_train.txt
+X_train.txt
+y_train.txt
+
+The table `extracted` contains the subjects, activities, and *only* the measurements that are of mean and standard deviation (excluding meanFreq()).
+
+The table `tidy` contains the mean for each subject and activity from `extracted`.
+
